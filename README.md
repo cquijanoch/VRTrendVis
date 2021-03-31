@@ -32,5 +32,5 @@ This folder contais the statistical scripts used to analyze results.
 
 This study is Motivated by [Robertson et al.](http://dx.doi.org/10.1109/TVCG.2008.125) and [Brehmer et al.](https://dx.doi.org/10.1109/TVCG.2019.2934397) studies.
 
-We adapt CI calculation and functions from [A Comparative Evaluation of Animation and Small Multiples For Trend Visualization on Mobile Phones](https://github.com/microsoft/MobileTrendVis/).
+We adapt CI calculation and functions from [A Comparative Evaluation of Animation and Small Multiples For Trend Visualization on Mobile Phones](https://github.com/microsoft/MobileTrendVis/tree/master/data_analysis).
 
