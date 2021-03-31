@@ -1,8 +1,8 @@
 # Comparing Scatterplot Variants for Temporal Trends Visualization in Immersive Virtual Environments
 
-This repository contains supplemental material for a research paper **Comparing Scatterplot Variants for TemporalTrends Visualization in Immersive Virtual Environments** by [Carlos Quijano Ch.](mailto:cquijanochavez@gmail.com), [Luciana Nedel](mailto:nedel@inf.ufrgs.br) and [Carla M. D. S. Freitas](mailto:carla@inf.ufrgs.br). 
+This repository contains supplemental material for a research paper **Comparing Scatterplot Variants for Temporal Trends Visualization in Immersive Virtual Environments** by [Carlos Quijano Ch.](mailto:cquijanochavez@gmail.com), [Luciana Nedel](mailto:nedel@inf.ufrgs.br) and [Carla M. D. S. Freitas](mailto:carla@inf.ufrgs.br). 
 
-It contains including source code for software used in an experiment (Application) as well as [experimental data and analysis scripts](Analysis).
+It contains including source code for software used in an experiment as well as experimental data and analysis scripts.
 
 ## Application Source Code
 

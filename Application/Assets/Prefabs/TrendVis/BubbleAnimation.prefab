@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2246251952864780620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2246251952864780622}
+  - component: {fileID: 2246251952864780609}
+  m_Layer: 0
+  m_Name: Plotter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2246251952864780622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2246251952864780620}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 8257862230360543951}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2246251952864780609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2246251952864780620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8aa80953432b64c9c1d7937b706270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputData: {fileID: 0}
+  allRows: 1
+  specificRow: 1
+  drawOnStart: 1
+  drawOverlay: 0
+  drawTrail: 0
+  animation: 1
+  columnID: Id
+  columnName: name
+  columnColorR: R
+  columnColorG: G
+  columnColorB: B
+  columnIsSelected: Select
+  maxPlotScale: 0.1
+  minPlotScale: 0.05
+  setMinX: 1
+  setMaxX: 1
+  setMinY: 1
+  setMaxY: 1
+  setMinZ: 1
+  setMaxZ: 1
+  setMaxW: 0
+  setMinW: 0
+  minX: 0
+  maxX: 4000000
+  minY: 20
+  maxY: 85
+  minZ: 0
+  maxZ: 200
+  minW: 0
+  maxW: 0
+  initYear: 1975
+  currentYear: 0
+  columnParents: 1
+  text_1: name
+  text_2: Energy Consumption/1975
+  text_3: Life Expectancy/1975
+  text_4: Infant Mortality/1975
+  text_5: 
+  columnBrothers: -1
+  subtitle_1: 'Name:'
+  subtitle_2: 'Energy Consumption:'
+  subtitle_3: 'Life Expentancy:'
+  subtitle_4: 'Infant Mortality:'
+  subtitle_5: 'Year:'
+  pointPrefab: {fileID: 6637880361394097076, guid: 34eb496954852be48897d9ad88e1ad46,
+    type: 3}
+  pointHolder: {fileID: 4596940900997539121}
+  interactions: {fileID: 0}
+  material_data: {fileID: 2100000, guid: 52c7083f9c7382344affb14206fe0de0, type: 2}
+--- !u!1 &4596940900997539121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4596940900997539134}
+  m_Layer: 0
+  m_Name: PointHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4596940900997539134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4596940900997539121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8257862230360543951}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8257862230360543952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8257862230360543951}
+  - component: {fileID: 8257862230360543948}
+  - component: {fileID: 8257862230360543949}
+  - component: {fileID: 8257862230360543954}
+  - component: {fileID: 8257862230360543955}
+  - component: {fileID: 6927976603095798026}
+  - component: {fileID: 6927976603095798027}
+  m_Layer: 10
+  m_Name: BubbleAnimation
+  m_TagString: Subspace
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8257862230360543951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.349, y: 2.5, z: -0.309}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children:
+  - {fileID: 2246251952864780622}
+  - {fileID: 4596940900997539134}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8257862230360543948
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8257862230360543949
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6ad0799adc7151e4bbdcc28f2ee131fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &8257862230360543954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8257862230360543955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb39183ab178f447aba5c303d104593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  labelAxis: 1
+  label: {fileID: 7818728621454248511, guid: 4608325a0a2b4ea4eab11bdf547d8daf, type: 3}
+  axis: {fileID: 412388595200927609, guid: 28bee376e1de9a8439289a8e43fd79c5, type: 3}
+  AxisXini: 0
+  AxisXend: 4M
+  AxisYini: 20
+  AxisYend: 85
+  AxisZini: 0
+  AxisZend: 200
+  AxisXlabel: Energy Consumption
+  AxisYlabel: Life Expentancy
+  AxisZlabel: Infant Mortality
+  labelOnStart: 1
+--- !u!54 &6927976603095798026
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6927976603095798027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257862230360543952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3072a8c8f7df589419625d7a13e2d0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_minPositionDistance: 0.5
+  m_minRotationDistance: 300
+  m_minDiffAngleRotation: 15
+  m_distanceInitialForScale: 0
+  m_modeScale: 0
+  selectedData: []
+  subspacesChild: []
+  isOriginal: 1
+  m_PrimaryHand: {fileID: 0}
+  m_SecondaryHand: {fileID: 0}
+  titleSubspace: {fileID: 8109580788735623056, guid: 9bedf3ffe75872c43b4de08cff783aa8,
+    type: 3}
+  pointHolder: {fileID: 4596940900997539121}
+  plotter: {fileID: 2246251952864780620}
+  isGrid: 0
+  isCell: 0
+  isAnimated: 0
+  childGrid: {fileID: 0}
+  showTitle: 1
+  activateCollider: 0
+  name: Animation
+  hideAtStart: 0
+  m_letFilter: 1
+  m_numControllersInner: 0
+  m_modePrepareToDelete: 0
+  version: 0
